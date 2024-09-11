@@ -17,20 +17,32 @@ Dataset
 The dataset used in this project contains the following columns:
 
 Customer_ID: Unique identifier for each customer.
+
 Feedback_Date: The date when the feedback was provided.
+
 Product_ID: Identifier for the product.
+
 Rating: Rating provided by the customer (1-5 scale).
+
 Comments: Customer's feedback in text format.
+
 Data Cleaning Steps
+
 Handling Missing Values: Identified and dealt with missing data.
+
 Correcting Data Types:
 Converted Feedback_Date to datetime format.
 Ensured Rating is numeric.
 Processed Comments as text.
+
 Text Processing:
+
 Removed extra whitespace, converted text to lowercase, removed punctuation, and removed stopwords.
+
 Tokenized the text for further analysis.
+
 Removing Duplicates: Identified and removed any duplicate records in the dataset.
+
 Exploratory Data Analysis (EDA)
 Key Visualizations:
 Rating Distribution: A histogram displaying the distribution of ratings.
