@@ -3,12 +3,17 @@ Customer Feedback Analysis
 This project analyzes customer feedback for an online retail store using a dataset containing feedback details such as customer IDs, feedback dates, product IDs, ratings, and customer comments. The goal is to clean the dataset, process the text data, and conduct exploratory data analysis (EDA) to identify trends and insights related to customer feedback.
 
 Project Structure
+
 The project includes the following components:
 
 Data Loading: Load the dataset into a pandas DataFrame and display its structure.
+
 Data Cleaning: Handle missing values, correct data types, remove duplicates, and process the Comments column for text analysis.
+
 Exploratory Data Analysis (EDA): Visualize rating distributions, explore frequent words in comments, and analyze rating trends over time.
+
 Dataset
+
 The dataset used in this project contains the following columns:
 
 Customer_ID: Unique identifier for each customer.
