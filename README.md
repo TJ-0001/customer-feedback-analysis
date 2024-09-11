@@ -1,4 +1,5 @@
 Customer Feedback Analysis
+
 This project analyzes customer feedback for an online retail store using a dataset containing feedback details such as customer IDs, feedback dates, product IDs, ratings, and customer comments. The goal is to clean the dataset, process the text data, and conduct exploratory data analysis (EDA) to identify trends and insights related to customer feedback.
 
 Project Structure
